@@ -1,0 +1,8 @@
+syntax="proto2";
+
+message Day {
+    required string name = 3;
+    required string parity = 1;
+    required string pair = 2;
+}
+
